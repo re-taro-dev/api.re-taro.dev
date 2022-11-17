@@ -1,0 +1,17 @@
+[package]
+name = "migration"
+version = "0.0.0"
+author = ["Rintaro Itokawa<me@re-taro.dev>"]
+edition = "2021"
+description = "API Migrator"
+homepage = "https://github.com/re-taro-dev/api.re-taro.dev#README"
+repository = "https://github.com/re-taro-dev/api.re-taro.dev"
+
+[lib]
+name = "migration"
+path = "src/lib.rs"
+
+[dependencies]
+async-std = { version = "1.12.0", features = ["attributes", "tokio1"] }
+
+sea-orm-migration = { version = "0.10.2", features = ["runtime-tokio-rustls", "sqlx-mysql"] }

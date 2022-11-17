@@ -1,0 +1,14 @@
+[package]
+name = "api"
+version = "1.0.0"
+author = ["Rintaro Itokawa<me@re-taro.dev>"]
+edition = "2021"
+license = "MIT"
+description = "The API for my portfolio"
+homepage = "https://github.com/re-taro-dev/api.re-taro.dev#README"
+repository = "https://github.com/re-taro-dev/api.re-taro.dev"
+
+[workspace]
+members = [".", "core", "entity", "migration", "server"]
+
+[dependencies]

@@ -1,0 +1,10 @@
+[package]
+name = "core"
+version = "0.0.0"
+author = ["Rintaro Itokawa<me@re-taro.dev>"]
+edition = "2021"
+description = "API core"
+homepage = "https://github.com/re-taro-dev/api.re-taro.dev#README"
+repository = "https://github.com/re-taro-dev/api.re-taro.dev"
+
+[dependencies]
